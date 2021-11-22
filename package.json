@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongod": "^2.0.0",
+    "nodemon": "^2.0.15",
+    "routes": "^2.1.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start-prod": "node index.js",
+    "server.js": "nodemon server.js"
+  },
+  "name": "day9",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
